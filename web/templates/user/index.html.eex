@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>TWITTER CLONE</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <div style="padding:20px;">
+          <input id="follower_user" type="text" class="form-control form-control-lg"  placeholder="type a name to follow" >
+          <button style="margin:10px;"class="btn btn-primary" id="follower" type="button" name="button">Follow</button>
+        </div>
+        <div style="padding:20px">
+          <input id="hashtags" type="text" class="form-control form-control-lg" placeholder="type a hashtag">
+          <button style="margin:10px " class="btn btn-primary" id="hashtag_btn" type="button" name="button">#hashtag</button>
+          <ul id="hashers">
+
+          </ul>
+        </div>
+          <div style="padding: 10px">
+            <input id="mentions" type="text" class="form-control form-control-lg"  placeholder="type a mention">
+            <button style="margin:10px" class="btn btn-primary" id="mention_btn" type="button" name="button">@mentions</button></div>
+              <ul id="mens">
+
+              </ul>
+          </div>
+          <div class="col">
+            <div>
+              <span class="input-group-text"><strong>Whats on your mind?</strong></span>
+              <br>
+              <textarea id="chat-input" class="form-control" aria-label="With textarea"></textarea>
+              <br>
+              <INPUT id="tweetbtn" TYPE="button" onClick="history.go(0)" VALUE="Tweet">
+            </div>
+            <div>
+                <br>
+                <h2>NEWS FEED:</h2>
+                <br>
+                <div id="messages"></div>
+            </div>
+          </div>
+        </div>
+      </body>
+      </html>

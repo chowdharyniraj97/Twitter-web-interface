@@ -1,0 +1,19 @@
+  <html>
+  <head>
+  <style>
+  img {border-radius: 50%;;}
+  p {color:blue;}
+  </style>
+  </head>
+  <body>
+    <div class="jumbotron">
+    <h1>Welcome to Twitter</h1>
+    <p class="lead">
+      <img src="/images/phoenix.png" style="">
+
+    </p>
+    <h1>#COP5615 for life #GoGators</h1>
+
+    </div>
+  </body>
+  </html>
